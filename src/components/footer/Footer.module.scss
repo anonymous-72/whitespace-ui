@@ -1,0 +1,107 @@
+@import './../../styles/vars.scss';
+
+.footer {
+    margin-top: 120px;
+    margin-bottom: 40px;
+
+    &__content {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 16px;
+        margin-bottom: 32px;
+        border-bottom: 1px solid #E4E7EC;
+    }
+    
+    &__desc {
+        margin-top: 24px;
+        max-width: 316px;
+        line-height: 1.5;
+        margin-bottom: 32px;
+    }
+
+    &__socials {
+        display: flex;
+        column-gap: 14px;
+    }
+
+    &__links {
+        display: flex;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+
+        h5 {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 1.56;
+            color: $titles-color;
+        }
+
+        a {
+            font-weight: 500;
+            line-height: 1.5;
+            color: $text-color;
+            transition: all 0.25s ease-in;
+
+            &:hover {
+                color: #888f99;
+            }
+        }
+
+        li {
+            display: flex;
+            column-gap: 11px;
+        }
+    }
+
+    &__copyright {
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+
+        span {
+            color: $titles-color;
+            line-height: 1.5;
+        }
+
+        &Links {
+            display: flex;
+            column-gap: 16px;
+            
+            a {
+                color: #1A75FF;
+                transition: all 0.25s ease-in;
+
+                &:hover {
+                    color: #033f9b;
+                }
+            }
+        }
+
+        &Link {
+            position: relative;
+            padding-right: 16px;
+            border-right: 1px solid #CED2DA;
+        }
+    }
+}
+
+@media (max-width: 1198px) {
+    .footer {
+        &__info {
+            margin-bottom: 32px;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .footer {
+        &__copyright {
+            flex-direction: column;
+            row-gap: 12px;
+        }
+    }
+}

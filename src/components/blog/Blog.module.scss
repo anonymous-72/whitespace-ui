@@ -1,0 +1,10 @@
+@import './../../styles/vars.scss';
+
+.blog {
+    margin-bottom: 120px;
+
+    &__header {
+        margin-top: 96px;
+        margin-bottom: 64px;
+    }
+}

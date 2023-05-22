@@ -1,0 +1,71 @@
+@import './../../styles/vars.scss';
+
+.formSubscription {
+    margin-bottom: 64px;
+
+    &__content {
+        position: relative;
+        margin-top: 64px;
+        padding: 64px;
+        background-color: $light-white;
+        border-radius: 32px;
+        overflow: hidden;
+
+        &::after {
+            content: url('./../../img/icons/graphics.svg');
+            position: absolute;
+            background-repeat: no-repeat;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            height: auto;
+        }
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 1.22;
+        color: $blue-text;
+        max-width: 692px;
+        margin-bottom: 16px;
+    }
+
+    &__subtitle {
+        font-size: 18px;
+        line-height: 1.56;
+        color: $blue-text;
+        max-width: 513px;
+        margin-bottom: 40px;
+    }
+
+    &__form {
+        display: flex;
+        column-gap: 16px;
+    }
+
+    &__input {
+        padding: 10px 8px 10px 12px;
+        background-color: #fff;
+        border-radius: 8px;
+        width: 357px;
+        text-overflow: ellipsis;
+    }
+}
+
+@media (max-width: 954px) {
+    .formSubscription {
+        &__content {
+        
+            &::after {
+                content: none;
+            }
+        }
+
+        &__form {
+            flex-direction: column;
+            align-items: center;
+            row-gap: 12px;
+        }
+    }
+}

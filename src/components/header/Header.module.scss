@@ -1,0 +1,67 @@
+@import './../../styles/vars.scss';
+
+.header {
+    margin-top: 18px;
+    margin-bottom: 90px;
+
+    a {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        color: $text-color;
+        transition: all 0.15s ease-in;
+
+        &:hover {
+            color: #888f99;
+        }
+    }
+
+    nav {
+        margin-top: 25px;
+
+        .header__btn {
+            margin-top: -14px;
+            
+            a {
+                color: #fff;
+            }
+        }
+    }
+
+    #header__navBtn {
+        display: none;
+    }
+
+    .header__nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 10px;
+    
+        li {
+          display: block;
+        }
+    }
+    
+    .visible {
+        display: block;
+    }
+    
+    .hidden {
+        display: none;
+    }
+}
+
+@media (max-width: 886px) {
+    .header {
+        #header__navBtn {
+            display: block;
+        }
+
+        nav {
+            li {
+                display: none;
+            }
+        }
+    }
+}

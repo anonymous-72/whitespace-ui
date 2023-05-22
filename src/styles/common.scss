@@ -1,0 +1,16 @@
+@import './vars.scss';
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: $text-color;
+}
+
+.container {
+    max-width: 1276px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.none {
+    display: none!important;
+}

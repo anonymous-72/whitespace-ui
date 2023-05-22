@@ -1,0 +1,89 @@
+@import './../../styles/vars.scss';
+
+.global {
+    margin-bottom: 64px;
+    
+    &__text {
+        h1 {
+            margin-bottom: 16px;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 1.25;
+            color: $titles-color;
+    
+            span {
+                position: relative;
+    
+                &::after {
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    height: 5px;
+                    background-color: $btn-color;
+                    left: 0;
+                    bottom: 0;
+                    z-index: -1;
+                }
+            }
+        }
+    }
+    
+    &__subtitle {
+        margin-bottom: 64px;
+        font-size: 18px;
+        line-height: 1.56;
+    }
+
+    &__rate {
+        margin-top: 24px;
+        
+        span {
+            font-size: 18px;
+            line-height: 1.56;
+        }
+
+        .global__stars {
+            display: flex;
+            column-gap: 3px;
+            margin-top: 8px;
+        }
+    }
+
+    &__img {
+        margin-left: 32px;
+        position: relative;
+        z-index: 2;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 490px;
+            left: 20px;
+            width: 100%;
+            height: 100%;
+            background-image: url('./../../img/global/credit-card.png');
+            z-index: 1;
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+@media (max-width: 1198px) {
+    .global {
+        &__subtitle {
+            margin-bottom: 48px;
+        }
+
+        &__img {
+            text-align: center;
+            margin-top: 64px;
+            height: 398px;
+            overflow: hidden;
+            margin-left: 0;
+
+            &::before {
+                content: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,123 @@
+@import './../../styles/vars.scss';
+
+.blogCard {
+    margin-right: 32px;
+    margin-bottom: 32px;
+
+    &__img {
+        border-radius: 8px;
+        margin-bottom: 24px;
+    }
+
+    &__user {
+        display: flex;
+        align-items: center;
+        column-gap: 8px;
+        margin-bottom: 12px;
+
+        h5 {
+            font-size: 14px;
+            line-height: 1.43;
+        }
+
+        .blogCard__userInfoDate {
+            font-size: 12px;
+            line-height: 1.33;
+            color: #637083;
+            margin-top: -6px;
+        }
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 1.33;
+        margin-bottom: 10px;
+    }
+
+    &__subtitle {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 24px;
+    }
+
+    &__jobs {
+        display: flex;
+        align-items: center;
+        column-gap: 4px;
+    }
+
+    &__link1 {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 1.33;
+        color: #004ECC;
+        padding: 2px 8px;
+        background-color: #E5EFFF;
+        border-radius: 150%;
+        transition: all 0.25s ease-in;
+
+        &:hover {
+            background-color: #bac7e2;
+        }
+    }
+
+    &__link2 {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 1.33;
+        color: #0077CC;
+        padding: 2px 8px;
+        background-color: #E5F4FF;
+        border-radius: 150%;
+        transition: all 0.25s ease-in;
+
+        &:hover {
+            background-color: #bac7e2;
+        }
+    }
+
+    &__link3 {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 1.33;
+        color: #0099CC;
+        padding: 2px 8px;
+        background-color: #E5F9FF;
+        border-radius: 150%;
+        transition: all 0.25s ease-in;
+
+        &:hover {
+            background-color: #bac7e2;
+        }
+    }
+
+    &__link4 {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 1.33;
+        color: $text-color;
+        padding: 2px 8px;
+        background-color: #F2F4F7;
+        border-radius: 150%;
+        transition: all 0.25s ease-in;
+
+        &:hover {
+            background-color: #bac7e2;
+        }
+    }
+}
+
+@media (max-width: 1198px) {
+    .blogCard {
+        margin-right: 0;
+        width: auto;
+        height: 100%;
+        &__img {
+            width: 100%;
+            height: 300px;
+            overflow: hidden;
+            object-fit: cover;
+        }
+    }
+}

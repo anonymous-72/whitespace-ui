@@ -1,0 +1,23 @@
+@import './../../styles/vars.scss';
+
+.sectionHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+        margin-bottom: 12px;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 1.22;
+        color: $titles-color;
+        text-align: center;;
+    }
+
+    &__subtitle {
+        text-align: center;
+        max-width: 650px;
+        font-size: 18px;
+        line-height: 1.56;
+    }
+}
