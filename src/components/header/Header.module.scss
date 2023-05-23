@@ -18,50 +18,27 @@
 
     nav {
         margin-top: 25px;
+    }
 
-        .header__btn {
-            margin-top: -14px;
-            
-            a {
-                color: #fff;
-            }
+    .header__btn {
+        a {
+            color: #fff;
         }
     }
 
-    #header__navBtn {
-        display: none;
-    }
-
-    .header__nav {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        margin-top: 10px;
-    
-        li {
-          display: block;
-        }
-    }
-    
-    .visible {
-        display: block;
-    }
-    
-    .hidden {
+    &__navBtn {
         display: none;
     }
 }
 
 @media (max-width: 886px) {
     .header {
-        #header__navBtn {
+        &__navBtn {
             display: block;
         }
 
-        nav {
-            li {
-                display: none;
-            }
+        .nav {
+            display: none;
         }
     }
 }

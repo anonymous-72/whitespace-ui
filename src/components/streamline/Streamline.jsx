@@ -17,7 +17,7 @@ const Streamline = () => {
                                 subtitle={"Stay up to date with the most relevant information"} 
                             />
                         </div>
-                        <div className="streamline__benefits d-flex justify-content-center gap-5">
+                        <div className={styles.streamline__benefits}>
                             <div className={styles.streamline__benefit}>
                                 <img src={tickIcon} alt="Tick" />
                                 <h5>Unlimited pages</h5>

@@ -5,13 +5,14 @@ import logoImg from './../../img/icons/logo.png'
 import logoMiniImg from './../../img/icons/logo-mini.png'
 import Buttons from "../button/Buttons"
 import NavButton from "../nav-button/NavButton"
+import './../../styles/common.scss'
 
 const Header = () => {
-    const [isNavVisible, setNavVisible] = useState(false)
+    const [isMenuOpen, setMenuOpen] = useState(false)
 
-    const toggleNavVisibility = () => {
-        console.log('Clicked')
-        setNavVisible(!isNavVisible)
+    const toggleMenu = () => {
+        setMenuOpen(!isMenuOpen)
+        console.log('click')
     }
 
     const [isMobileView, setIsMobileView] = useState(window.innerWidth < 500)
@@ -38,21 +39,23 @@ const Header = () => {
                                     <img src={isMobileView ? logoMiniImg : logoImg} alt="Logo" />
                                 </a>
                             </Col>
-                            <nav className={`header__nav d-flex align-items-center gap-4 xl-10 md-8 sm-8 flex-wrap ${isNavVisible ? styles.visible : styles.hidden}`}>
-                                <ul className={`d-flex gap-4 flex-wrap`} id={styles.nav}>
-                                    <li><a href="#!" className={styles.header__link}>Home</a></li>
-                                    <li><a href="#!" className={styles.header__link}>Features</a></li>
-                                    <li><a href="#!" className={styles.header__link}>About us</a></li>
-                                    <li><a href="#!" className={styles.header__link}>News</a></li>
-                                    <li><a href="#!" className={styles.header__link}>Contact</a></li>
-                                </ul>
+                            <div className="d-flex align-items-center gap-4 xl-10 md-8 sm-8 flex-wrap">
+                                <nav className={styles.nav} id={styles["nav"]}>
+                                    <ul className={`d-flex gap-4 flex-wrap ${isMenuOpen ? styles.menuOpen : ''} ${styles.nav__list}`} id={styles["nav"]}>
+                                        <li><a href="#!" className={styles.header__link}>Home</a></li>
+                                        <li><a href="#!" className={styles.header__link}>Features</a></li>
+                                        <li><a href="#!" className={styles.header__link}>About us</a></li>
+                                        <li><a href="#!" className={styles.header__link}>News</a></li>
+                                        <li><a href="#!" className={styles.header__link}>Contact</a></li>
+                                    </ul>
+                                </nav>
                                 <div className={styles.header__btn}>
                                     <Buttons title={"Start now"} />
                                 </div>
-                                <div className="header__navBtn col-auto" id={styles.header__navBtn}>
-                                    <NavButton onClick={toggleNavVisibility} />
+                                <div className={`col-auto ${styles.header__navBtn} ${styles["header__navBtn"]}`} onClick={toggleMenu}>
+                                    <NavButton />
                                 </div>
-                            </nav>
+                            </div>
                         </div>
                     </Col>
                 </Row>
