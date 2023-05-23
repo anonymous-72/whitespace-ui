@@ -21,44 +21,44 @@ const Clients = () => {
                         <Col className="d-flex text-center justify-content-center flex-wrap">
                             <Col xl="3" md="6" sm="12">
                                 <a href="#!" className={styles.clients__link}>
-                                    <img src={noviexarImg} alt="" />
+                                    <img src={noviexarImg} alt="" width={184} />
                                 </a>
                             </Col>
                             <Col xl="3" md="6" sm="12">
                                 <a href="#!" className={styles.clients__link}>
-                                    <img src={skywaveImg} alt="" />
+                                    <img src={skywaveImg} alt="" width={184} />
                                 </a>
                             </Col>
                             <Col xl="3" md="6" sm="12">
                                 <a href="#!" className={styles.clients__link}>
-                                    <img src={nexacoreImg} alt="" /> 
+                                    <img src={nexacoreImg} alt="" width={184} /> 
                                 </a> 
                             </Col>
                             <Col xl="3" md="6" sm="12">
                                 <a href="#!" className={styles.clients__link}>
-                                    <img src={elitexcelImg} alt="" width={174} />
+                                    <img src={elitexcelImg} alt="" width={184} />
                                 </a>
                             </Col>
                         </Col>
                         <Col className="d-flex text-center justify-content-center flex-wrap">
                             <Col xl="3" md="6" sm="12">
                                 <a href="#!" className={styles.clients__link}>
-                                    <img src={zenithronImg} alt="" />
+                                    <img src={zenithronImg} alt="" width={184} />
                                 </a>
                             </Col>
                             <Col xl="3" md="6" sm="12">
                                 <a href="#!" className={styles.clients__link}>
-                                    <img src={ennovatekImg} alt="" />
+                                    <img src={ennovatekImg} alt="" width={184} />
                                 </a>
                             </Col>
                             <Col xl="3" md="6" sm="12">
                                 <a href="#!" className={styles.clients__link}>
-                                    <img src={infinitumixImg} alt="" />
+                                    <img src={infinitumixImg} alt="" width={184} />
                                 </a>
                             </Col>
                             <Col xl="3" md="6" sm="12">
                                 <a href="#!" className={styles.clients__link}>
-                                    <img src={spectrafuseImg} alt="" />
+                                    <img src={spectrafuseImg} alt="" width={184} />
                                 </a>
                             </Col>
                         </Col>
