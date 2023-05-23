@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/whitespace-ui/static/css/main.030e57aa.css",
-    "main.js": "/whitespace-ui/static/js/main.7af0c25d.js",
+    "main.css": "/whitespace-ui/static/css/main.87381cf2.css",
+    "main.js": "/whitespace-ui/static/js/main.3fe694b8.js",
     "static/media/girl.png": "/whitespace-ui/static/media/girl.d80313f431d87f3b9b8a.png",
     "static/media/news-01.png": "/whitespace-ui/static/media/news-01.d8e7530467b523b844ef.png",
     "static/media/news-02.png": "/whitespace-ui/static/media/news-02.11f7e395ca2602582772.png",
@@ -11,26 +11,26 @@
     "static/media/ben-02.png": "/whitespace-ui/static/media/ben-02.2b56ca2895faba147e45.png",
     "static/media/ben-03.png": "/whitespace-ui/static/media/ben-03.87c7324ab50d8c97f65e.png",
     "static/media/credit-card.png": "/whitespace-ui/static/media/credit-card.cc35b8a76b636bbd3457.png",
-    "static/media/instagram.svg": "/whitespace-ui/static/media/instagram.cb5ac61da98b4bfe90f153fe9fe3aead.svg",
-    "static/media/twitter.svg": "/whitespace-ui/static/media/twitter.8ef8807530ee1b7c98604cfd416ddd0c.svg",
-    "static/media/linkedin.svg": "/whitespace-ui/static/media/linkedin.2191dcf0212de4cea9a061b0d09570ae.svg",
-    "static/media/mail-open.svg": "/whitespace-ui/static/media/mail-open.487bc7fdf228f7072b4685fa6f43ab78.svg",
+    "static/media/instagram.svg": "/whitespace-ui/static/media/instagram.48484877f4cd062fdaca2c16eda1dd07.svg",
+    "static/media/twitter.svg": "/whitespace-ui/static/media/twitter.525d81f2f0dffb5c5188dd2f49824489.svg",
+    "static/media/linkedin.svg": "/whitespace-ui/static/media/linkedin.f596a8daad9410028ec7e53f31d80790.svg",
+    "static/media/mail-open.svg": "/whitespace-ui/static/media/mail-open.33b30acac3a7b40303d1f7515b8e931b.svg",
     "index.html": "/whitespace-ui/index.html",
-    "static/media/star.svg": "/whitespace-ui/static/media/star.392f4c4fef7294417cb8e13946d1e58c.svg",
-    "static/media/graphics.svg": "/whitespace-ui/static/media/graphics.acdfc569a9486a3a0899.svg",
-    "static/media/phone.svg": "/whitespace-ui/static/media/phone.c5150f4379ec7e2b20b0884410632642.svg",
-    "static/media/location.svg": "/whitespace-ui/static/media/location.8b4f7fc06c43facb83c073acda69fd42.svg",
-    "static/media/mobile.svg": "/whitespace-ui/static/media/mobile.341616697368ae6bc1015d5afc004f01.svg",
-    "static/media/tick.svg": "/whitespace-ui/static/media/tick.3926d512d0a6143b1ddb715acf79dba6.svg",
-    "static/media/Facebook.svg": "/whitespace-ui/static/media/Facebook.44acf4fa3afbc965b6d4a3209d946346.svg",
-    "static/media/mail.svg": "/whitespace-ui/static/media/mail.1d665f75f3117006ecce0ca410010b08.svg",
-    "static/media/play-btn.svg": "/whitespace-ui/static/media/play-btn.c8362cc370e01bdbd4ca55bc99c21d55.svg",
-    "static/media/nav-button.svg": "/whitespace-ui/static/media/nav-button.1534a41b944b5d176cf4fcc548f74d2d.svg",
-    "main.030e57aa.css.map": "/whitespace-ui/static/css/main.030e57aa.css.map",
-    "main.7af0c25d.js.map": "/whitespace-ui/static/js/main.7af0c25d.js.map"
+    "static/media/graphics.svg": "/whitespace-ui/static/media/graphics.f407e84d2305c5c3fd65.svg",
+    "static/media/star.svg": "/whitespace-ui/static/media/star.2c67c2a2a6ec880f6c78e9c4eccb4488.svg",
+    "static/media/phone.svg": "/whitespace-ui/static/media/phone.b4698d7e83372825d33b725a43cbbf76.svg",
+    "static/media/location.svg": "/whitespace-ui/static/media/location.3f220af267acbf76aabae0cd6e53dc98.svg",
+    "static/media/mobile.svg": "/whitespace-ui/static/media/mobile.33203b90a8967d91d2eaa573055d21cf.svg",
+    "static/media/tick.svg": "/whitespace-ui/static/media/tick.81a2994149420d44b9daae93e2f290db.svg",
+    "static/media/Facebook.svg": "/whitespace-ui/static/media/Facebook.7987c62ecd58b7d414090dd368e74f4a.svg",
+    "static/media/mail.svg": "/whitespace-ui/static/media/mail.2880fc438c96673eff30cb5383b1a712.svg",
+    "static/media/play-btn.svg": "/whitespace-ui/static/media/play-btn.9671107d4aaa1a2a3dc0ed093c926622.svg",
+    "static/media/nav-button.svg": "/whitespace-ui/static/media/nav-button.b5ab534489e6b81057e0f26aff030f06.svg",
+    "main.87381cf2.css.map": "/whitespace-ui/static/css/main.87381cf2.css.map",
+    "main.3fe694b8.js.map": "/whitespace-ui/static/js/main.3fe694b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.030e57aa.css",
-    "static/js/main.7af0c25d.js"
+    "static/css/main.87381cf2.css",
+    "static/js/main.3fe694b8.js"
   ]
 }
