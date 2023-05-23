@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/whitespace-ui/static/css/main.bc406ac6.css",
-    "main.js": "/whitespace-ui/static/js/main.576c5276.js",
+    "main.css": "/whitespace-ui/static/css/main.030e57aa.css",
+    "main.js": "/whitespace-ui/static/js/main.7af0c25d.js",
     "static/media/girl.png": "/whitespace-ui/static/media/girl.d80313f431d87f3b9b8a.png",
     "static/media/news-01.png": "/whitespace-ui/static/media/news-01.d8e7530467b523b844ef.png",
     "static/media/news-02.png": "/whitespace-ui/static/media/news-02.11f7e395ca2602582772.png",
@@ -26,11 +26,11 @@
     "static/media/mail.svg": "/whitespace-ui/static/media/mail.1d665f75f3117006ecce0ca410010b08.svg",
     "static/media/play-btn.svg": "/whitespace-ui/static/media/play-btn.c8362cc370e01bdbd4ca55bc99c21d55.svg",
     "static/media/nav-button.svg": "/whitespace-ui/static/media/nav-button.1534a41b944b5d176cf4fcc548f74d2d.svg",
-    "main.bc406ac6.css.map": "/whitespace-ui/static/css/main.bc406ac6.css.map",
-    "main.576c5276.js.map": "/whitespace-ui/static/js/main.576c5276.js.map"
+    "main.030e57aa.css.map": "/whitespace-ui/static/css/main.030e57aa.css.map",
+    "main.7af0c25d.js.map": "/whitespace-ui/static/js/main.7af0c25d.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc406ac6.css",
-    "static/js/main.576c5276.js"
+    "static/css/main.030e57aa.css",
+    "static/js/main.7af0c25d.js"
   ]
 }
